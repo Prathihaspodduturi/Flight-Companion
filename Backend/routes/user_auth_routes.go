@@ -1,12 +1,12 @@
 package routes
 
 import (
-	UserAuth "flightbuddy-backend/controllers/user/auth"
+	"flightbuddy-backend/controllers"
 	"github.com/gin-gonic/gin"
 )
 
 // SetupUserRoutesForRegistrationAndLogin defines routes for user authentication
 func SetupUserRoutesForRegistrationAndLogin(router *gin.RouterGroup) {
-	router.POST("/signup", UserAuth.RegisterUser)
-	router.POST("/login", UserAuth.LoginUser)
+	router.POST("/signup", controllers.SignUpUserController)
+	router.POST("/login", controllers.LoginUserController)
 }
