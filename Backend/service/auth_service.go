@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"errors"
-	"flightbuddy-backend/database"
-	"flightbuddy-backend/jwt"
-	"flightbuddy-backend/structs"
+	"flight-companion-backend/database"
+	"flight-companion-backend/jwt"
+	"flight-companion-backend/structs"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

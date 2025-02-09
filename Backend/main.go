@@ -1,8 +1,8 @@
 package main
 
 import (
-	"flightbuddy-backend/database"
-	"flightbuddy-backend/routes"
+	"flight-companion-backend/database"
+	"flight-companion-backend/routes"
 	"github.com/gin-gonic/gin"
 )
 

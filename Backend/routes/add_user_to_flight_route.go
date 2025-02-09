@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"flightbuddy-backend/controllers"
+	"flight-companion-backend/controllers"
 	"github.com/gin-gonic/gin"
 )
 

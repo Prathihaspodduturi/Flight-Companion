@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"flightbuddy-backend/service"
-	"flightbuddy-backend/structs"
+	"flight-companion-backend/service"
+	"flight-companion-backend/structs"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
